@@ -4,7 +4,7 @@ Este corte tiene el objetivo de verificar los conocimientos sobre las funciones 
 ## Funciones
 - Ordenar un diccionario dada una key
 ```python
-ordenar = lambda lista, llave: sorted(lista, key = lambda k: k[llave])
+ordenar = lambda lista, llave: sorted(lista, key = lambda x: x[llave])
 ```
 - Elevar los elementos de una lista a una potencia
 ```python
